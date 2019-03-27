@@ -1,7 +1,5 @@
 int beautifulPairs(vector<int> a, vector<int> b) {
     int i,j=0,r=0,m=0,count=0,n=a.size();
-    map<int,int>aa;
-    map<int,int>bb;
     int v1[n]={0},v2[n]={0};
     for(i=0;i<n;i++){
         for(j=0;j<n;j++){     
